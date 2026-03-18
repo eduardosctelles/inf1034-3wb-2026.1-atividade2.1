@@ -29,9 +29,10 @@ t.pendown()
 color = textinput("Qual cor você deseja pintar o quadrado", "?")
 t.color(color)
 t.begin_fill()
+t.left(90)
 for i in range(4):
     t.forward(100)
-    t.right(90)
+    t.left(90)
 t.end_fill()
 
 t.penup()
@@ -55,7 +56,7 @@ t.color(color)
 t.begin_fill()
 for i in range(6):
     t.forward(50)
-    t.right(60)
+    t.left(60)
 t.end_fill()
 
 mainloop()
