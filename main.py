@@ -51,7 +51,7 @@ t.penup()
 t.goto(200,-100)
 t.pendown()
 
-color = textinput("Qual cor você deseja pintar o octogono", "?")
+color = textinput("Qual cor você deseja pintar o octógono", "?")
 t.color(color)
 t.begin_fill()
 for i in range(6):
